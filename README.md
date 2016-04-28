@@ -11,15 +11,20 @@ let maxObjects = 5;
 let maxDepth = 5;
 
 let tree = new QuadTree(bounds, maxObjects, maxDepth);
+
+
 ```
 
-### Insertion ###
+### Insertion & Clearing ###
 Objects inserted must contain a point, other properties are optional.
 ```javascript
 tree.insert({
   point: new Point(10, 10),
   exampleProp: {someField: 'someValue'}
 });
+
+// removes all objects from the tree
+tree.clear();
 ```
 
 ### Querying ###
