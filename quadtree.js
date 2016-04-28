@@ -2,7 +2,7 @@ import Quad from '../math/quad';
 import Point from '../math/point';
 
 export default class QuadTree {
-    constructor(bounds, maxObjects, maxLevels, level) {
+    constructor(bounds, maxObjects, maxLevels, level = 0) {
         this.bounds = bounds;
         this.maxObjects = maxObjects;
 
