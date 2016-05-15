@@ -31,7 +31,6 @@ tree.clear();
 Returns an array of objects contained in the query rectangle. 
 Optionally takes a key for the property you want to return and a callback. By default the whole object is returned.
 
-if the selector field isn't provided the point will be returned by default.
 ```javascript
 let query = new Quad(new Point(0,0), 200, 200);
 
